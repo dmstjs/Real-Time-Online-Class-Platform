@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+/*상단바*/
+.navbar {
+	background-color: #C3E1D2 !important;
+}
+
+/*상단바 링크 색상*/
+a.nav-link:link {
+	color: black;
+}
+
+a.nav-link:visited {
+	color: black;
+}
+
+a.nav-link:hover {
+	color: black;
+}
+
+a.nav-link:active {
+	color: black
+}
+
+/* 탭 선택시 색 변경
+-> 상단바 버튼도 색 같이 바뀜,
+-> 마우스가 올라갈때만 변경
+.nav-link:hover{
+	color: #409169;
+	background-color: red;
+	border-color: #fff;
+	text-align: center;
+}*/
+
+/*드롭 버튼*/
+.btn-drop {
+	background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+	width: 100%;
+	text-align: left;
+}
+
+.btn-drdr {
+	background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+	margin-bottom: 1em;
+}
+
+/*수정버튼*/
+.btn-change {
+	background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+	width: 100%;
+}
+
+/*이미지 파일 업로드 버튼*/
+.input-file-button{
+  padding: 6px 25px;
+  background-color:#C3E1D2;
+  border-color: #666;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  text-align: center; 
+  width: 100%;
+}
+
+/*모달 적용 버튼*/
+.btn-modal {
+	background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+/*닫기 버튼*/
+.btn-cancel {
+	background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}

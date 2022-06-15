@@ -1,0 +1,168 @@
+#addMember {
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#addNotice{
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#addDate{
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#deleteMember{
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#addMsg{
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#modal_event{
+    display: none;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+
+html,
+body {
+width: 100%;
+height: 100%;
+}
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.notice-mt {
+width: 100%;
+padding: 2%;
+}
+
+a { 
+text-decoration:none;
+color: inherit; }
+a:hover{
+    color: black;
+}
+
+/*회원추가 버튼*/
+.add_member_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*회원추가 닫기 버튼*/
+.add_member_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+/*공지추가 버튼*/
+.add_notice_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*공지추가 닫기 버튼*/
+.add_notice_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+/*일정추가 버튼*/
+.add_date_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*일정추가 닫기 버튼*/
+.add_date_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+/*회원 삭제 버튼*/
+.delete_member_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*회원 삭제 닫기 버튼*/
+.delete_member_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+/*채팅 추가 버튼*/
+.add_msg_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*채팅 추가 닫기 버튼*/
+.add_msg_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+/*이벤트 버튼*/
+.event_btn{
+    background-color: #C3E1D2;
+	color: black;
+	border-color: #666;
+}
+
+/*이벤트 닫기 버튼*/
+.event_close_btn{
+    background-color: #E0E0E0;
+	color: black;
+	border-color: #606060;
+}
+
+
+
+

@@ -1,0 +1,116 @@
+#chatWrap {
+    /* width: 100%; */
+    border: 1px solid #c3d9cd;
+}
+
+#chatHeader {
+    width: 100%;
+    /* position: sticky; */
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: 900;
+    border-bottom: 1px solid #c3d9cd;
+    color: #409169;
+}
+
+.btn_back{
+    margin-left: 30px;
+}
+
+.msg_title{
+    /* width: 100%; */
+    margin-left: 330%;
+    position: sticky;
+    /* width: 100%; */
+    /* text-align: center; */
+    display: block;
+}
+
+#chatLog {
+    height: 500px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.myMsg {
+    text-align: right;
+}
+
+.anotherMsg {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.msg {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+.anotherMsg > .msg {
+    background-color: #f1f0f0;
+
+}
+
+.myMsg > .msg {
+    background-color: #c3d9cd;
+    color: black;
+}
+
+.anotherName {
+    font-size: 12px;
+    display: block;
+}
+
+#chatForm {
+    display: block;
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #c3d9cd;
+    }
+
+#message {
+    width: 93%;
+    height: calc(100% - 1px);
+    border: none;
+    padding-bottom: 0;
+}
+
+#message:focus {
+    outline: none;
+}
+
+#chatForm > input[type=submit] {
+    outline: none;
+    border: none;
+    background: none;
+    color: #0084FF;
+    font-size: 17px;
+}
+
+#memberWrap{
+    width: 200px;
+}
+
+#memberList {
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+#memberHeader {
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 600;
+}
+
+.memberEl {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 20px;
+    font-size: 14px;
+}
